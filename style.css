@@ -1,0 +1,58 @@
+.img{
+    background-image: url(991-1500x1500.jpg);
+    height: 600px;
+     background-size: cover;
+}
+.text{
+    position: relative;
+}
+
+ .logo{
+    padding-left: 190px;
+ }
+.btns{
+    position: absolute;
+    top: 40%;
+}
+i{
+    color: rgb(29, 95, 218);
+}
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title{
+    letter-spacing: 10px;
+ 
+    font-size: 14px;
+}
+b{
+    border-bottom: 1px solid #ccc;
+}
+.des{
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@media only screen and (max-width: 600px) {
+    img{
+     width: 80%;
+     
+    }
+    .logo{
+     padding-left: 10%;
+    }
+ }
+ @media only screen and (max-width: 970px) {
+    img{
+     width: 80%;
+     
+    }
+   .logo{
+    padding-left: 20%;
+   }
+ }
